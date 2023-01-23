@@ -3,3 +3,36 @@ html {
     color: white;
 }
 
+/* top banner container */
+header {
+    overflow: hidden;
+    position: relative;
+    left: 200px;
+    width: fit-content;
+}
+
+/* back and forward buttons */
+.banner {
+    position: relative;
+    float: left;
+}
+
+/* user icon and username */
+h5, img .user {
+    display: inline-block;
+}
+.user {
+    float: right;
+}
+
+/* side navigation bar */
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* main body */
+main {
+    display: inline-block;
+}
