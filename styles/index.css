@@ -1,6 +1,7 @@
 html {
-    background-image: linear-gradient(rgb(39, 58, 66), black, black);
+    background-image: linear-gradient(rgb(40, 60, 60), black, black);
     color: white;
+    font-family: Gotham, Arial, Helvetica, sans-serif;
 }
 
 /* top banner container */
@@ -17,6 +18,7 @@ header {
 }
 
 /* user icon and username */
+
 /* wanted this to stay visible on the right side of the page 
 without scrolling but could not figure it out...*/
 #upgrade, #profile, #username {
@@ -30,6 +32,7 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
+    overflow: hidden;
 }
 
 /* main body */
@@ -37,4 +40,5 @@ main {
     overflow: hidden;
     position: relative;
     left: 200px;
+    padding-left: 50px;
 }
