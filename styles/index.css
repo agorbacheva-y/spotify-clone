@@ -39,6 +39,10 @@ nav {
     padding-right: 25px;
 }
 
+.navigation-bar ul {
+    list-style-type: none;
+}
+
 /* main body */
 main {
     overflow: hidden;
