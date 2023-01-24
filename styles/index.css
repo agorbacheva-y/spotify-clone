@@ -10,7 +10,12 @@ header {
     position: relative;
     left: 200px;
     padding-left: 50px;
+    width: 100%;
 }
+
+/* NB! I wanted the back and forward buttons to stay on the left of the header
+and  Upgrade, user icon and Username to stay on the right side of the page 
+but without having to scroll but could not figure it out...*/
 
 /* back and forward buttons */
 .banner {
@@ -19,14 +24,13 @@ header {
 }
 
 /* user icon and username */
-
-/* wanted this to stay visible on the right side of the page 
-without scrolling but could not figure it out...*/
 #upgrade, #profile, #username {
     display: inline;
     position: relative;
     float: right;
 }
+/* NB! ^The Upgrade text should actually be on the left and Username text on the right.
+I don't know why it switched...*/
 
 /* side navigation bar */
 nav {
@@ -37,6 +41,7 @@ nav {
     height: 100%;
     background-color: black;
     padding-right: 25px;
+    font-size: 0.85em;
 }
 
 .navigation-bar ul {
