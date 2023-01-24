@@ -32,6 +32,7 @@ but without having to scroll but could not figure it out...*/
 /* NB! ^The Upgrade text should actually be on the left and Username text on the right.
 I don't know why it switched...*/
 
+
 /* side navigation bar */
 nav {
     position: absolute;
@@ -60,3 +61,17 @@ main {
     left: 200px;
     padding-left: 50px;
 }
+
+.good-afternoon {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.good-afternoon p {
+    width: 250px;
+    height: 100px;
+    border: 1px solid white;
+}
+
+/* NB! I'm still working on making the playlist items wrap
+but max 3 per row */
