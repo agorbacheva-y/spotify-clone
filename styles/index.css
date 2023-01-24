@@ -8,7 +8,6 @@ header {
     overflow: hidden;
     position: relative;
     left: 200px;
-    width: fit-content;
 }
 
 /* back and forward buttons */
@@ -18,10 +17,11 @@ header {
 }
 
 /* user icon and username */
-h5, img .user {
+/* wanted this to stay visible on the right side of the page 
+without scrolling but could not figure it out...*/
+#upgrade, #profile, #username {
     display: inline-block;
-}
-.user {
+    position: relative;
     float: right;
 }
 
@@ -34,5 +34,7 @@ nav {
 
 /* main body */
 main {
-    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    left: 200px;
 }
