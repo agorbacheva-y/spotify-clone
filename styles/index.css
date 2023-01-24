@@ -41,6 +41,7 @@ nav {
 
 .navigation-bar ul {
     list-style-type: none;
+    line-height: 2;
 }
 
 /* main body */
