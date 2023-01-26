@@ -37,11 +37,10 @@ but without having to scroll but could not figure it out...*/
 
 /* side navigation bar */
 .navigation-bar {
-    position: absolute;
-    left: 0;
-    top: 0;
     overflow: hidden;
+    position: absolute;
     height: 100vh;
+    width: 200px;
     background-color: black;
     padding-right: 25px;
     font-size: 0.85em;
@@ -68,6 +67,8 @@ main {
 .good-afternoon {
     display: flex;
     flex-wrap: wrap; 
+    text-align: center;
+    line-height: 100px;
 }
 
 .good-afternoon p {
