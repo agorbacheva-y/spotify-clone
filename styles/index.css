@@ -10,23 +10,19 @@ header {
     position: relative;
     left: 200px;
     padding-left: 50px;
-    width: 100%;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* NB! I wanted the back and forward buttons to stay on the left of the header
 and  Upgrade, user icon and Username to stay on the right side of the page 
 but without having to scroll but could not figure it out...*/
 
-/* back and forward buttons */
-.banner {
-    float: left;
-}
-
 /* user icon and username */
 .user {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 /* side navigation bar */
@@ -35,7 +31,7 @@ nav {
     left: 0;
     top: 0;
     overflow: hidden;
-    height: 100%;
+    height: 100vh
     background-color: black;
     padding-right: 25px;
     font-size: 0.85em;
