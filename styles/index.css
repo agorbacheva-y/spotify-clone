@@ -68,14 +68,19 @@ main {
     display: flex;
     flex-wrap: wrap; 
     line-height: 75px;
+    margin-left: -20px;
 }
 
 .good-afternoon div {
-    width: 250px;
+    /* width: 250px; */
     height: 75px;
-    border: 1px solid white;
+    max-width: 35%;
+    min-width: 30%;
     display: flex;
     align-items: center;
+    background-color: rgb(52, 52, 52);
+    margin: 0px 0px 10px 20px;
+    border-radius: 5px;
 }
 
 .good-afternoon img {
@@ -83,8 +88,5 @@ main {
     height: 100%;
     display: flex;
     align-items: baseline;
+    margin-right: 15px;
 }
-
-
-/* NB! I'm still working on making the playlist items wrap
-but max 3 per row */
