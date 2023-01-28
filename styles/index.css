@@ -83,7 +83,11 @@ main {
     border-radius: 5px;
 }
 
-.good-afternoon img {
+.mix-80s {
+    position: relative;
+}
+
+.boombox, .coffee, .jul-dekoration, .roadtrip-1, .chill-1, .piano-keys {
     width: 30%;
     height: 100%;
     display: flex;
@@ -93,6 +97,10 @@ main {
 
 .overlay {
     position: absolute;
+    top: 0;
+    right: 0;
+}
 
-
+.play-button {
+    height: 75px;
 }
