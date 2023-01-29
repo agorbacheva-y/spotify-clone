@@ -44,6 +44,7 @@ but without having to scroll but could not figure it out...*/
     background-color: black;
     padding-right: 25px;
     font-size: 0.85em;
+    top: 0;
 }
 
 .navigation-bar ul {
