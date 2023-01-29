@@ -73,7 +73,7 @@ main {
 
 /* container for individual playlists 1-6
 can this change to div:first-child ?? */
-.good-afternoon div {
+.good-afternoon section {
     height: 75px;
     max-width: 35%;
     min-width: 30%;
@@ -86,17 +86,17 @@ can this change to div:first-child ?? */
 }
 
 /* container for image and text for playlist 1 */
-.mix-80s-img {
-    width: 50%;
+.mix-80s-img, .coffee-shop-img {
     position: relative;
-    height: 0;
     left: 0;
-    bottom: 0;
+    top: 0;
+    display: inline-block;
+    align-items: center;
 }
 
 /* images for playlist 1-6 */
 .boombox, .coffee, .jul-dekoration, .roadtrip-1, .chill-1, .piano-keys {
-    /* width: 30%; */
+    width: 30%;
     height: 100%;
     border-radius: 5px 0 0 5px;
 }
