@@ -99,7 +99,9 @@ main {
 }
 
 /* hover button image */
-.play-button {
+.hover-button {
     position: absolute;
     right: 0;
+    background-color: transparent;
+    border: none;
 }
