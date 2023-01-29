@@ -9,15 +9,10 @@ header {
     overflow: hidden;
     position: relative;
     left: 200px;
-    padding-left: 50px;
+    padding: 20px 20px 0 50px;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.banner {
-    width: fit-content;
-    height: 15px;
 }
 
 .button {
