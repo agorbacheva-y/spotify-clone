@@ -67,12 +67,11 @@ main {
 .good-afternoon {
     display: flex;
     flex-wrap: wrap; 
-    line-height: 75px;
     margin-left: -20px;
 }
 
+/* can this change to div:first-child ?? */
 .good-afternoon div {
-    /* width: 250px; */
     height: 75px;
     max-width: 35%;
     min-width: 30%;
@@ -81,26 +80,24 @@ main {
     background-color: rgb(52, 52, 52);
     margin: 0px 0px 10px 20px;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
-.mix-80s {
+.mix-80s-img {
+    width: 100%;
     position: relative;
+    height: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .boombox, .coffee, .jul-dekoration, .roadtrip-1, .chill-1, .piano-keys {
-    width: 30%;
+    /* width: 30%; */
     height: 100%;
-    display: flex;
-    align-items: baseline;
-    margin-right: 15px;
+    border-radius: 5px 0 0 5px;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.play-button {
     height: 75px;
+    right: 0;
 }
