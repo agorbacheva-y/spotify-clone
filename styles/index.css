@@ -99,10 +99,25 @@ main {
     font-weight: bold;
 }
 
-/* hover button */
+/* hover play button */
 .hover-button {
     position: absolute;
     right: 0;
     background-color: transparent;
     border: none;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+
+.good-afternoon div:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.mix-80s:hover .hover-button,
+.coffee-shop:hover .hover-button,
+.jul:hover .hover-button,
+.roadtrip-1:hover .hover-button,
+.chill1:hover .hover-button,
+.piano:hover .hover-button {
+    opacity: 1;
 }
