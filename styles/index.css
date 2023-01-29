@@ -85,20 +85,20 @@ main {
     left: 0;
 }
 
-/* images for playlist 1-6 */
+/* images for playlists */
 .boombox, .coffee, .jul-dekoration, .roadtrip-1, .chill-1, .piano-keys {
     width: 75px;
     height: 75px;
     border-radius: 5px 0 0 5px;
 }
 
-/* text in playlist 1 */
+/* text in playlists */
 .good-afternoon p {
     margin-left: 20px;
     font-weight: bold;
 }
 
-/* hover button image */
+/* hover button */
 .hover-button {
     position: absolute;
     right: 0;
