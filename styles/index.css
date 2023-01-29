@@ -71,10 +71,9 @@ main {
     margin-left: -20px;
 }
 
-/* container for individual playlists 1-6
-can this change to div:first-child ?? */
+
 .good-afternoon div {
-    height: 75px;
+    height: auto;
     max-width: 35%;
     min-width: 30%;
     display: flex;
@@ -82,25 +81,19 @@ can this change to div:first-child ?? */
     background-color: rgb(52, 52, 52);
     margin: 0px 0px 10px 20px;
     border-radius: 5px;
-}
-
-/* container for img, text, hover button in playlist 1 */
-.mix-80s {
     position: relative;
     left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /* images for playlist 1-6 */
 .boombox, .coffee, .jul-dekoration, .roadtrip-1, .chill-1, .piano-keys {
     width: 75px;
-    height: 100%;
+    height: 75px;
     border-radius: 5px 0 0 5px;
 }
 
 /* text in playlist 1 */
-.mix-80s p {
+.good-afternoon p {
     margin-left: 20px;
     font-weight: bold;
 }
