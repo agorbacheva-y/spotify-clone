@@ -1,7 +1,7 @@
 html {
     background-image: linear-gradient(rgb(40, 60, 60), black, black);
     color: white;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* top banner container */
@@ -58,6 +58,10 @@ main {
     left: 200px;
     padding-left: 50px;
     max-width: 100%;
+}
+
+main h2 {
+    font-weight: bold;
 }
 
 /*container for all playlists in .good-afternoon */
