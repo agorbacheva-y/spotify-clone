@@ -47,6 +47,11 @@ but without having to scroll but could not figure it out...*/
     line-height: 2;
 }
 
+.main-menu span {
+    position: relative;
+    left: 10px;
+}
+
 hr {
     opacity: 0.25;
 }
